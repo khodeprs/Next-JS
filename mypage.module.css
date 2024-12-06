@@ -1,0 +1,28 @@
+.sa , .sb , .se , .fs, .fe{
+        color: yellowgreen;
+        background-color: pink;
+        display:flex; 
+        flex-direction:row;
+        height:100px;
+        width:400px;
+        align-items:center;
+        justify-content:space-around;
+}
+.fs{
+    justify-content: flex-start;
+}
+.fe{
+    justify-content: flex-end;
+}
+.sa {
+
+        justify-content:space-around;
+}
+.sb {
+
+        justify-content:space-between;
+}
+.se {
+
+    justify-content:space-evenly;
+}
